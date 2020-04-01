@@ -1,0 +1,83 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{fullpage}
+\usepackage{relsize}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{upquote}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{lscape}
+\usepackage[center]{caption}
+\usepackage{color}
+\usepackage{acronym}
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable}
+\usepackage{titlesec}
+\usepackage{environ}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage{tabu}
+\usepackage[section]{placeins}
+\usepackage{threeparttablex}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks = true, %Colours links instead of ugly boxes
+  urlcolor   = blue,
+  linkcolor  = blue,
+  citecolor  = blue
+}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+\bibliographystyle{apa}
+
+\title{Lifespan variation by causes of death \& Gender Gap in Europe \\
+        \small{Data \& Methods Assignment}}
+
+
+\author{\large{Jesús Daniel Zazueta Borboa} \\ {\small{{European Doctoral School of Demography}}}}
+
+%\date{\small \today \\ {\it Preliminary}}
+%\date{\small \today}
+\date{\small }
+\maketitle
+%\clearpage
+\vspace{-0.3in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\spacing{1.5}
+\section{Introduction}
+
+The topic of this research is lifespan variation and its gender gap by cause of death in Europe for the period 1980-2015. Lifespan variation, also referred to as lifespan inequality, captures the heterogeneity at age at death, while life expectancy provides an average of the length of life. Both are useful indicator of population health and performances of the health system \citep{van18, JM2018-2}.The objective of this research is to assess the contribution of different causes of deaths to the trend of lifespan variation and to the gender gap, and add to the literature in this topic. This document describes the data for this research. 
+
+\section{Data}
+
+To measure inequality in the length of life, it is indispensable to have life table data. But, in order to take into account the contribution of causes of death, it is necessary to combine period life tables with an external data source. In this research, period life tables we retrieved from the Human Mortality Database (HMD) for the period 1980 to 2015, while cause of death data come from the World Health Organization  (WHO) Mortality Database. 
+
+There are two primary reasons to justify the use of both data sources. First, HMD, and WHO are recognized as high-quality public data sources to analyze mortality and to make cross-national comparisons. Second, previous research on this topic, often combine both data sources  \citep{JM2018-2, SEL16} or use WHO mortality data as a primary source \citep{Alvarez20, Cao17, Nau12}. In that way my results will be easily comparable with the resto f the literature. 
+
+\subsection{Human Mortality Database}
+
+The HMD is a joint project between the University of California at Berkley and the Max Planck Institute for Demographic Research \citep{HMD_Data}. Most of the countries in the HMD data are European, and for some countries such as France, Sweden, and Denmark, period and cohort life tables are available going back to the XVIII century. Other non-European countries are included, such as the United States of America, Canada, Chile, Australia, New Zeland, Israel, Japan, Taiwan, Republic of Korea and Hong Kong. 
+
+As a database, HMD provides the mid-year-population, number of deaths, number of birth, deaths in the Lexis Diagram, and period and cohort life tables. The key features of HMD are the availability of the information on the methods used to construct these life tables, and a special appendix for each country, which describes the treatment and the source of the data. In this research, we use period life table by sex and single year of age (0 -110+)  for the period 1980 to 2015 for 22 countries\footnote{Austria, Belgium, Bulgaria, Czech Republic, Denmark, Estonia, Finland, France, Ireland, Italy, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom, Ukraine}. For those selected countries, the data is collected from the National Statistic Office, and used by the HMD team to estimate the life tables. 
+
+\subsection{World Health Organization}
+
+The WHO Mortality Data contains the number of deaths by country, year, sex, age groups, and cause of death as far back as 1950. Data are included only for countries reporting data coded according to the International Classification of Diseases (ICD)  \citep{WHO_Data}. For this analysis, we included the same selected countries as for the HMD and for the same time framework. 
+
+One of the limitations of this database is that the number of deaths is in five-years interval age groups except for death at age 0 and 1. Another limitation is that for some periods and countries, the last age group varies between 80+ or 85+. In order to fit the data with the 1-year age groups of the HMD and increase the accuracy of the information, I will ungroup and smooth the deaths by each cause of death using efficient estimation of smoothed distribution using the R packages  \textit{ungroup}\citep{Rizzi15, Rizzi16}.
+
+
+\subsubsection{Cause of death classification}
+
+For the period of analysis, there are three revisions of the ICD classification of causes of death, the eighth, ninth, and tenth revision. I will group the deaths in seven categories following previous research to increase accuracy and comparability \citep{Janssen04, JM2018-2}. The seven causes of death are: 1) Cancer sensitive to smoking, 2) Cancer not sensitive to smoking, 3) Cardiovascular diseases, 4) Non-infectious respiratory diseases, 5) Infectious respiratory diseases, 6) External causes and 7) Rest of causes. As an appendix of this thesis, the detailed information of ICD Classification codes will be provided.
+
+\bibliography{References_DM}
+\end{document}

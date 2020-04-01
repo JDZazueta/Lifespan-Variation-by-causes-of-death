@@ -1,0 +1,70 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Aburto et~al.}{2018}]{JM2018-2}
+Aburto, J.~M., Wensink, M., van Raalte, A., and Lindahl-Jacobsen, R. (2018).
+\newblock Potential gains in life expectancy by reducing inequality of
+  lifespans in denmark: an international comparison and cause-of-death
+  analysis.
+\newblock {\em BMC public health}, 18(1):831.
+
+\bibitem[\protect\astroncite{Alvarez et~al.}{2020}]{Alvarez20}
+Alvarez, J.-A., Aburto, J.~M., and Canudas-Romo, V. (2020).
+\newblock Latin american convergence and divergence towards the mortality
+  profiles of developed countries.
+\newblock {\em Population Studies}, 74(1):75--92.
+
+\bibitem[\protect\astroncite{Cao et~al.}{2017}]{Cao17}
+Cao, B., Bray, F., Beltr{\'a}n-S{\'a}nchez, H., Ginsburg, O., Soneji, S., and
+  Soerjomataram, I. (2017).
+\newblock Benchmarking life expectancy and cancer mortality: global comparison
+  with cardiovascular disease 1981-2010.
+\newblock {\em bmj}, 357:j2765.
+
+\bibitem[\protect\astroncite{HMD}{2018}]{HMD_Data}
+HMD (2018).
+\newblock Human mortality database.
+\newblock {\em University of California, Berkley \& Max Planck Institute for
+  Demographic Research}.
+
+\bibitem[\protect\astroncite{Janssen and Kunst}{2004}]{Janssen04}
+Janssen, F. and Kunst, A.~E. (2004).
+\newblock Icd coding changes and discontinuities in trends in cause-specific
+  mortality in six european countries, 1950-99.
+\newblock {\em Bulletin of the World Health Organization}, 82:904--913.
+
+\bibitem[\protect\astroncite{Nau and Firebaugh}{2012}]{Nau12}
+Nau, C. and Firebaugh, G. (2012).
+\newblock A new method for determining why length of life is more unequal in
+  some populations than in others.
+\newblock {\em Demography}, 49(4):1207--1230.
+
+\bibitem[\protect\astroncite{Rizzi et~al.}{2015}]{Rizzi15}
+Rizzi, S., Gampe, J., and Eilers, P.~H. (2015).
+\newblock Efficient estimation of smooth distributions from coarsely grouped
+  data.
+\newblock {\em American Journal of Epidemiology}, 182(2):138--147.
+
+\bibitem[\protect\astroncite{Rizzi et~al.}{2016}]{Rizzi16}
+Rizzi, S., Thinggaard, M., Engholm, G., Christensen, N., Johannesen, T.~B.,
+  Vaupel, J.~W., and Lindahl-Jacobsen, R. (2016).
+\newblock Comparison of non-parametric methods for ungrouping coarsely
+  aggregated data.
+\newblock {\em BMC medical research methodology}, 16(1):59.
+
+\bibitem[\protect\astroncite{Seligman et~al.}{2016}]{SEL16}
+Seligman, B., Greenberg, G., and Tuljapurkar, S. (2016).
+\newblock Equity and length of lifespan are not the same.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  113(30):8420--8423.
+
+\bibitem[\protect\astroncite{van Raalte et~al.}{2018}]{van18}
+van Raalte, A.~A., Sasson, I., and Martikainen, P. (2018).
+\newblock The case for monitoring life-span inequality.
+\newblock {\em Science}, 362(6418):1002--1004.
+
+\bibitem[\protect\astroncite{WHO}{2019}]{WHO_Data}
+WHO (2019).
+\newblock Health statistics and information systems.
+\newblock {\em World Health Organization online. Accessed 25 March 2020.}
+
+\end{thebibliography}
